@@ -19,20 +19,19 @@ RealTimeSync runs on VM startup (no manual intervention)
 Supports local drives, network shares, and USB destinations
 
 Repository Structure
-text
 /
-├── README.md                          # You are here
-├── /docs/
-│   ├── network-setup.md               # Proxmox bridge configuration
-│   ├── freefilesync-setup.md          # FreeFileSync installation & batch config
-│   ├── automation-setup.md            # RealTimeSync + scheduled tasks
-│   └── troubleshooting.md             # Common issues & fixes
-├── /configs/
-│   ├── sync-job.ffs_batch             # FreeFileSync batch configuration
-│   └── real-time-sync.ffs_real        # RealTimeSync configuration
-└── /scripts/
-    ├── start-sync.bat                 # Windows startup script
-    └── check-status.ps1               # PowerShell script to check sync status
+├── README.md
+├── docs/
+│   ├── network-setup.md
+│   ├── freefilesync-setup.md
+│   ├── automation-setup.md
+│   └── troubleshooting.md
+├── configs/
+│   ├── sync-job.ffs_batch
+│   └── real-time-sync.ffs_real
+└── scripts/
+    ├── start-sync.bat
+    └── check-status.ps1
 Quick Start Guide
 Prerequisites
 □ Laptop on same network as Proxmox host (192.168.88.x)
