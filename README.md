@@ -20,12 +20,12 @@ Supports local drives, network shares, and USB destinations
 
 Repository Structure
 /
-├── README.md
-├── docs/
+├── README.md/
+├── docs//
 │   ├── network-setup.md
-│   ├── freefilesync-setup.md
-│   ├── automation-setup.md
-│   └── troubleshooting.md
+│   /├── freefilesync-setup.md
+│   /├── automation-setup.md
+│   /└── troubleshooting.md
 ├── configs/
 │   ├── sync-job.ffs_batch
 │   └── real-time-sync.ffs_real
